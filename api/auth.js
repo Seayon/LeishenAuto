@@ -2,7 +2,7 @@ const request = require('../utils/request');
 
 function login(data) {
     return request({
-        url: '/api/auth/login/v1',
+        url: '/wap/login/bind/v1',
         method: 'post',
         data
     })
